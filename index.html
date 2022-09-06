@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scss Project</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/06jq.js"></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <input type="checkbox" class="nav-checkbox" id="nav-toggle" />
+    <label for="nav-toggle" class="nav-button">
+      <span class="nav-icon">&nbsp;</span>
+    </label>
+    <div class="nav-bg">&nbsp;</div>
+    <div class="nav-body">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <span>01</span>FASHION </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <span>02</span>BEAUTY </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <span>03</span>STAR </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <span>04</span>EVENT </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <span>05</span>CULTURE </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header id="brandVisual">
+    <ul class="visual_slide">
+      <li class="visual_0">
+        <a href="#"> </a>
+        <div class="header-text">
+          <div class="header-text-main">
+            10월의 신부 김연아. 그는 남은 삶을 기꺼이 사랑하고 껴안을 준비가
+            되어 있다
+          </div>
+          <div class="header-text-sub">
+            결혼이라는 다음 장을 앞두고 만난 김연아는 미래에 대해 곧잘
+            이야기했다
+          </div>
+        </div>
+      </li>
+      <li class="visual_1">
+        <a href="#">배너이미지</a>
+        <div class="header-text">
+          <div class="header-text-main">
+            사랑스러운 레트로 무드 뿜뿜! 유미의세포 시즌2 김고은과 박진영
+          </div>
+          <div class="header-text-sub">
+            유미의 세포들이 다시 분주해졌다. 미처 추억이 되기 전에 미리
+            기념사진으로 남긴 유미와 바비, 둘만의 순간.
+          </div>
+        </div>
+      </li>
+      <li class="visual_2">
+        <a href="#">배너이미지</a>
+        <div class="header-text">
+          <div class="header-text-main">
+            매일 새로운 기록을 세우는 그녀, 정호연
+          </div>
+          <div class="header-text-sub">
+            LA로 떠나기 전에 만난 정호연은 미국에 가면 ‘인앤아웃 버거’를 먹고
+            싶다 했다. 몇 주 뒤, 그의 손에는 SAG 여우주연상이 들려 있었다.
+            방금 태어난 것 같은 천연한 얼굴로 모든 것의 기록을 새롭게 써
+            내려가는 자, 정호연이라는 물성.
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="btnImg">
+      <img src="../07/img/left.png" alt="prev" class="prev" />
+      <img src="../07/img/right.png" alt="next" class="next" />
+    </div>
+    <ul class="buttonList">
+      <!-- 접근성 때문에 넣는 거임 -->
+      <li class="on"><a href="#" class="hidden"></a></li>
+      <li><a href="#" class="hidden"></a></li>
+      <li><a href="#" class="hidden"></a></li>
+    </ul>
+    <div class="logo-text"></div>
+  </header>
+  <main>
+    <section class="section-about">
+      <h2>강렬해야 할 때는 강렬하게, 절제해야 할 때는 섬세하고 부드럽게</h2>
+      <div class="section-about-words">
+        <h3>패션, 예술 및 대중문화의 선도적 인재들과 콜라보레이션하며 전 세계 뷰티 트렌드를 이끌어가는 메이크업 아티스트 브랜드 </h3>
+        <p>
+          * 이번에 새롭게 선보인 제품은은 마리아 그라치아 치우리가 디자인한 이번 시즌의 새로운 머스트 해브 아이템입니다. 기본 메이크업 디자인을
+          재해석한 이 유니크한 액세서리의 아키텍처 라인은 까나쥬 모티브를 새롭게 풀어낸 아키까나쥬 버전으로 모던한 매력이 한층 강조되었습니다.
+        </p>
+        <a href="#" class="btn-text u-margin-right-small">Read More</a>
+        <a href="#" class="btn-text">Read More</a>
+      </div>
+      <div class="section-about-photo">
+        <div class="photo"><img src="images/photo-1.jpg" alt="photo" /></div>
+        <div class="photo"><img src="images/photo-2.jpg" alt="photo" /></div>
+      </div>
+    </section>
+    <section class="section-etc">
+      <div class="etc etc-1">
+        <div class="etc-icon">
+          <span class="material-symbols-rounded"></span>
+        </div>
+        <div class="etc-text">
+          <h3>르세라핌, 엘르 D에디션 커버 공개 #ELLE_D에디션</h3>
+          <p>
+            <엘르>의 디지털 프로젝트 의 커버스타 르세라핌. 셀린느의 가을 22
+              컬렉션을 입고, 대담하면서도 통통 튀는 모습으로 새로운 패션
+              아이콘으로 떠오른 그들을 만나보세요.
+          </p>
+        </div>
+      </div>
+      <div class="etc etc-2">
+        <div class="etc-icon2">
+          <span class="material-symbols-rounded"></span>
+        </div>
+        <div class="etc-text">
+          <h3>환상의 섬에서 만난 구찌</h3>
+          <p>이국적인 풍경 앞에 펼쳐진 파라다이스.</p>
+        </div>
+      </div>
+      <div class="etc etc-3">
+        <div class="etc-icon3">
+          <span class="material-symbols-rounded"></span>
+        </div>
+        <div class="etc-text">
+          <h3>메종 프란시스 커정 724</h3>
+          <p>
+            아침부터 새벽까지 빛나고 쾌적하며 편안한 도시의 공기를 담았다. 주
+            7일 하루 24시간, 쉴 틈 없이 나를 감싸는 메종 프란시스 커정 724.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="main-banner">
+      <a href="#"><img src="images/main-banner-logo.png" alt="" width="322"></a>
+    </div>
+  </main>
+  <div class="main_cont_bottom">
+    <div class="box-innner">
+      <div class="box subscribe">
+        <h3>ELLE Subscribe</h3>
+        <p>소장하는 즐거움, 넘겨보는 재미! 정기구독으로 만나보세요</p>
+        <div class="img">
+          <img src="images/subsc.jpg" alt="" width="180" />
+        </div>
+        <a href="#">신청하기</a>
+      </div>
+      <div class="box instagram">
+        <h3>ELLE Instagram</h3>
+        <p>실시간으로 업데이트되는 최신 소식!</p>
+        <div class="img">
+          <img src="images/instagram.jpg" alt="" width="180" />
+        </div>
+        <a href="#">팔로우하기</a>
+      </div>
+    </div>
+    <!-- //box-innner -->
+  </div>
+  <footer>
+    <div class="logo-text-footer"></div>
+    <div class="copyright">
+      <p>
+        고객지원 문의전화 : 1592-0636<br />
+        (평일 오전 9시 30분~오후 5시 30분)<br />
+        ※ 토/일/공휴일/회사 정기휴일 및 특별휴일 제외<br />
+        상호명 : 엘르코리아<br />
+        대표자명 : 김민정 <br />
+        사업자등록번호 : SE250712009101<br />
+      </p>
+      <p>Copyright &copy; 2020 Mango. All Right Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

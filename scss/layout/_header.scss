@@ -1,0 +1,83 @@
+header {
+  width: 100%;
+  height: 95vh;
+  background-image: url(/images/0.jpg);
+  background-size: cover;
+  position: relative;
+  .logo-text {
+    background: url(/images/elle_logo.png) no-repeat center;
+    position: absolute;
+    left: 7rem;
+    top: -2rem;
+    font-size: 5.6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    height: 108px;
+    width: 100px;
+    letter-spacing: -0.1rem;
+  }
+  .header-text {
+    position: absolute;
+    left: 7rem;
+    bottom: 7%;
+    color: $color-white;
+    letter-spacing: -0.1rem;
+    font-weight: 700;
+    width: 1300px;
+    &-main {
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      animation-name: moveInRight;
+      animation-duration: 0.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: backwards;
+    }
+    &-sub {
+      margin-top: 3rem;
+      font-size: 2.4rem;
+
+      animation-name: moveInLeft;
+      animation-duration: 0.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: backwards;
+    }
+  }
+}
+
+// 슬라이더
+
+#brandVisual {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 900px;
+  & .visual_slide li a {
+    display: block;
+    text-indent: -99999999px;
+  }
+  & .visual_slide {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  & .visual_slide li {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 100%;
+    height: 100%;
+  }
+  & .visual_slide li.visual_0 {
+    background: url(../../images/0.jpg) no-repeat center;
+    background-size: cover;
+  }
+  & .visual_slide li.visual_1 {
+    background: url(../../images/1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  & .visual_slide li.visual_2 {
+    background: url(../../images/2.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
