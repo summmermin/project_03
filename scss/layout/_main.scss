@@ -1,6 +1,6 @@
 main {
   @include clearfix();
-
+  position: relative;
   .section-about {
     padding: 7rem 0 6.5rem 6rem;
     width: 66.66666%;
@@ -109,21 +109,11 @@ main {
         }
       }
     }
-
-    &-banner {
-      height: 200px;
-      padding: 46px 0 0;
-      background: url(/images/main_banner.jpg) center 0px no-repeat rgb(255, 255, 255);
-      height: 200px;
-      padding: 46px 0 0;
-      width: 55%;
-      position: absolute;
-      bottom: -622px;
-    }
   }
 
   .section-etc {
     width: 33.33334%;
+    max-width: 740px;
     float: left;
 
     @include mq("small-screen-1") {
@@ -164,22 +154,22 @@ main {
 
       &:hover {
         background-color: #555;
-        transition: all .5s;
+        transition: all 0.5s;
       }
 
       .etc-icon {
         width: 100%;
-        background: url(/images/event2.jpg) no-repeat center -80px;
+        background: url(../images/event2.jpg) no-repeat center -80px;
       }
 
       .etc-icon2 {
         width: 100%;
-        background: url(/images/event.jpg) no-repeat center -135px;
+        background: url(../images/event.jpg) no-repeat center -135px;
       }
 
       .etc-icon3 {
         width: 100%;
-        background: url(/images/event1.jpg) no-repeat center -85px;
+        background: url(../images/event1.jpg) no-repeat center -85px;
       }
 
       &:hover .etc-icon,
@@ -208,10 +198,27 @@ main {
       }
     }
   }
+  &_banner {
+    @include clearfix();
+
+    width: 60%;
+    height: 210px;
+    position: absolute;
+    bottom: 40px;
+    background: url(../images/main_banner.jpg) center 0px no-repeat
+      rgb(255, 255, 255);
+    text-align: center;
+    img {
+      margin: 45px 0;
+    }
+    @include mq("small-screen-3") {
+      display: none;
+    }
+  }
 }
 
 .main_cont_bottom {
-  background: url(../../images/main_cont_bottom.jpg) no-repeat center;
+  background: url(../images/main_cont_bottom.jpg) no-repeat center;
   height: 500px;
   background-size: cover;
   margin: 0 auto;
