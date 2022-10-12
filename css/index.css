@@ -489,15 +489,15 @@ main .section-etc .etc:hover {
 }
 main .section-etc .etc .etc-icon {
   width: 100%;
-  background: url(/images/event2.jpg) no-repeat center -80px;
+  background: url(../images/event2.jpg) no-repeat center -80px;
 }
 main .section-etc .etc .etc-icon2 {
   width: 100%;
-  background: url(/images/event.jpg) no-repeat center -135px;
+  background: url(../images/event.jpg) no-repeat center -135px;
 }
 main .section-etc .etc .etc-icon3 {
   width: 100%;
-  background: url(/images/event1.jpg) no-repeat center -85px;
+  background: url(../images/event1.jpg) no-repeat center -85px;
 }
 main .section-etc .etc:hover .etc-icon,
 main .section-etc .etc:hover .etc-icon2,
