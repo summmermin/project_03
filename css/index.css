@@ -310,15 +310,15 @@ header .header-text-sub {
   height: 100%;
 }
 #brandVisual .visual_slide li.visual_0 {
-  background: url(../../images/0.jpg) no-repeat center;
+  background: url(../images/0.jpg) no-repeat center;
   background-size: cover;
 }
 #brandVisual .visual_slide li.visual_1 {
-  background: url(../../images/1.jpg) no-repeat center;
+  background: url(../images/1.jpg) no-repeat center;
   background-size: cover;
 }
 #brandVisual .visual_slide li.visual_2 {
-  background: url(../../images/2.jpg) no-repeat center;
+  background: url(../images/2.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -522,7 +522,7 @@ main .section-etc .etc .etc-text h3 {
 }
 
 .main_cont_bottom {
-  background: url(../../images/main_cont_bottom.jpg) no-repeat center;
+  background: url(../images/main_cont_bottom.jpg) no-repeat center;
   height: 500px;
   background-size: cover;
   margin: 0 auto;
@@ -632,7 +632,7 @@ footer::after {
   clear: both;
 }
 footer .logo-text-footer {
-  background: url(../../images/elle_logo.png) no-repeat;
+  background: url(../images/elle_logo.png) no-repeat;
   width: 180px;
   float: left;
   height: 100px;
