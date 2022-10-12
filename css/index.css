@@ -155,13 +155,16 @@ h3 {
 .nav-icon::after {
   top: 0.8rem;
 }
-.nav-icon::before, .nav-icon::after {
+.nav-icon::before,
+.nav-icon::after {
   position: absolute;
   content: "";
   left: 0;
   transition: all 0.2s;
 }
-.nav-icon, .nav-icon::before, .nav-icon::after {
+.nav-icon,
+.nav-icon::before,
+.nav-icon::after {
   width: 3rem;
   height: 2px;
   background: #fff;
@@ -263,25 +266,25 @@ header .header-text-main {
   font-size: 7.2rem;
   line-height: 7.2rem;
   -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
+  animation-name: moveInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
 }
 header .header-text-sub {
   margin-top: 3rem;
   font-size: 2.4rem;
   -webkit-animation-name: moveInLeft;
-          animation-name: moveInLeft;
+  animation-name: moveInLeft;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
 }
 
 #brandVisual {
@@ -355,7 +358,7 @@ main .section-about::after {
   }
 }
 main .section-about-words {
-  width: 65%;
+  width: 51%;
   padding: 2rem 2rem 0 0;
   float: left;
 }
@@ -378,7 +381,7 @@ main .section-about-words p {
 main .section-about-photo {
   position: relative;
   width: 35%;
-  float: left;
+  float: right;
 }
 @media screen and (min-width: 701px) and (max-width: 899px) {
   main .section-about-photo {
@@ -454,7 +457,7 @@ main .section-etc {
     width: 100%;
   }
 }
-main .section-etc [class^=etc-] {
+main .section-etc [class^="etc-"] {
   height: 14rem;
 }
 main .section-etc .etc::after {
@@ -496,7 +499,9 @@ main .section-etc .etc .etc-icon3 {
   width: 100%;
   background: url(/images/event1.jpg) no-repeat center -85px;
 }
-main .section-etc .etc:hover .etc-icon, main .section-etc .etc:hover .etc-icon2, main .section-etc .etc:hover .etc-icon3 {
+main .section-etc .etc:hover .etc-icon,
+main .section-etc .etc:hover .etc-icon2,
+main .section-etc .etc:hover .etc-icon3 {
   filter: brightness(1.1);
 }
 main .section-etc .etc .etc-text {
@@ -653,15 +658,15 @@ footer .copyright p:nth-child(1) {
   word-break: break-all;
   text-align: justify;
   -moz-column-count: 3;
-       column-count: 3;
+  column-count: 3;
   -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  column-gap: 3rem;
   -moz-column-rule-style: dashed;
-       column-rule-style: dashed;
+  column-rule-style: dashed;
   -moz-column-rule-width: 1px;
-       column-rule-width: 1px;
+  column-rule-width: 1px;
   -moz-column-rule-color: #888;
-       column-rule-color: #888;
+  column-rule-color: #888;
   -moz-column-width: 1rem;
-       column-width: 1rem;
-}/*# sourceMappingURL=index.css.map */
+  column-width: 1rem;
+} /*# sourceMappingURL=index.css.map */
